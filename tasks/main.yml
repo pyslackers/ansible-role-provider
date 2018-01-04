@@ -1,0 +1,13 @@
+---
+
+- import_tasks: digital_ocean.yml
+  tags:
+    - digital_ocean
+  when:
+    - "provider == 'digital-ocean'"
+
+- import_tasks: qemu.yml
+  tags:
+    - qemu
+  when:
+    - "provider == 'qemu'"
