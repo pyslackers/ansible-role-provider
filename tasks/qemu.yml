@@ -1,0 +1,6 @@
+---
+
+- name: install qemu agent
+  apt:
+    pkg: qemu-guest-agent
+    state: latest
