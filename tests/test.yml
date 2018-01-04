@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  vars:
+    travis: True
+  roles:
+     - ansible-role-provider
