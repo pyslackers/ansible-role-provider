@@ -1,5 +1,7 @@
-Role Name
-=========
+pyslackers.provider
+===================
+
+[![Build Status](https://travis-ci.org/ovv/ansible-role-provider.svg?branch=master)](https://travis-ci.org/ovv/ansible-role-provider)
 
 Ansible role with configuration specific to a provider.
 
