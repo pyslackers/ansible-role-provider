@@ -4,7 +4,6 @@
   apt:
     pkg: apt-transport-https
     state: latest
-  with_items:
 
 - name: Digital Ocean apt key
   apt_key:
