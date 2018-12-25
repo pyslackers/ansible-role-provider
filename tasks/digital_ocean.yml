@@ -2,10 +2,9 @@
 
 - name: Install requirements
   apt:
-    pkg: "{{ item }}"
+    pkg: apt-transport-https
     state: latest
   with_items:
-    - apt-transport-https
 
 - name: Digital Ocean apt key
   apt_key:
